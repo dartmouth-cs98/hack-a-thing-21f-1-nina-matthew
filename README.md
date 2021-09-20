@@ -1,7 +1,7 @@
 # Hack Technology / Project Attempted
 
 
-## What you built? 
+## What did you build? 
 
 TODO: Short description of what you attempted to build
 
