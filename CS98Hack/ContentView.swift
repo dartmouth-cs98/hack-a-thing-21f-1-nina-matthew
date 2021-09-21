@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     let location: Location
     
+    
     var body: some View {
         ScrollView {
             Image(location.heroPicture)
@@ -34,6 +35,11 @@ struct ContentView: View {
                 .padding(.top)
             
             Text(location.more)
+            
+            let card = Card(prompt: "What's the capital of " + location.country + "?", answer: location.capital)
+            CardView(card: card)
+            
+            
         }
         .navigationTitle("Discover")
     }

@@ -14,14 +14,7 @@ struct CS98HackApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                NavigationView {
-                    ContentView(location: locations.primary)
-                }
-                .tabItem {
-                    Image(systemName: "airplane.circle.fill")
-                    Text("Discover")
-                }
-                
+
                 NavigationView {
                     WorldView()
                 }
