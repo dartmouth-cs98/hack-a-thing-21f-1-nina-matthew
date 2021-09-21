@@ -17,6 +17,7 @@ struct Location: Decodable, Identifiable {
     let longitude: Double
     let heroPicture: String
     let advisory: String
+    let capital: String
     
-    static let example = Location(id: 1, name: "Great Smokey Mountains", country: "United States", description: "A great place to visit.", more: "More text here.", latitude: 36.7, longitude: -83.5, heroPicture: "smokies", advisory: "Beware of bears")
+    static let example = Location(id: 1, name: "Great Smokey Mountains", country: "United States", description: "A great place to visit.", more: "More text here.", latitude: 36.7, longitude: -83.5, heroPicture: "smokies", advisory: "Beware of bears", capital: "test capital")
 }
