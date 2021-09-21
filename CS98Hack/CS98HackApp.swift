@@ -12,7 +12,7 @@ struct CS98HackApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                ContentView(location: Location.example)
             }
         }
     }
