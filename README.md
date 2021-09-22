@@ -38,6 +38,8 @@ Cool things that worked:
 * Built in iOS icons are cool and easy to use 
 * Good understanding of Swift views, navigation, and layout
 
+We really enjoyed working with and learning about Swift. In our opinion, Swift is easy to work with and can allow us to build clean, sleek-looking apps that align with the look of existing iOS apps.
+
 Didn't work: 
 * Few concepts that don't make total sense, for example:
   * We don't fully understand the difference between a `struct` and a `class`
