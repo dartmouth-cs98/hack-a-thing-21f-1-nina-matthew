@@ -8,6 +8,8 @@ We made an iOS app using Swift and SwiftUI. The app displays information and ima
 Include some screenshots.
 [How?](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
 
+![alt text](https://github.com/dartmouth-cs98/hack-a-thing-21f-1-nina-matthew/blob/main/CS98Hack/Screenshots/capitalcardscreenshot.png)
+
 ## Who Did What?
 
 We worked on the tutorial together. Nina did the setup with `Location.swift` and `Locations.swift` and also added the flashcard and capital functionality via `Card.swift` and  `CardView.swift`. Matthew added the map functionality via  `WorldView.swift` and added the tips with `Tip.swift` and `TipsView.swift`.
